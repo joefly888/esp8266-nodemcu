@@ -1,6 +1,6 @@
 -- this is an adaptation of the work of from 
 -- http://captain-slow.dk/2015/04/16/posting-to-thingspeak-with-esp8266-and-nodemcu/
--- this modification POST to Ubidots.com instead
+-- this modification POSTs to Ubidots.com instead
 
 wifi.setmode(wifi.STATION)
 wifi.sta.config("your-SSID","your-PASSWORD")  -- need to wait for a few seconds to connect
